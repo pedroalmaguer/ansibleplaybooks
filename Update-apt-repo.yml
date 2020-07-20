@@ -1,5 +1,5 @@
 - hosts: all
-  become: true
+  become: false
   become_user: false
   tasks:
     - name: Update apt repo and cache on all Debian/Ubuntu boxes
